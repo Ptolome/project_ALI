@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    font-size: 24px;
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#2F343A;
+}
+
+
+/* section {
+  
+    margin-bottom: 50px;
+    
+} */
+.mw {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.line-seporation {
+    width: 100px;
+    border: 2px solid #C8A35F;
+    height: 2px;
+    margin: 50px 0;
+}
+
+.header-wrapper {
+    background-color: #C8A35F;
+    padding: 15px 0;
+    
+      
+}
+.header-bottom-menu__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-top-menu, .header-bottom-menu {
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+.header-top-menu_btn {
+    cursor: pointer;
+}
+  
+.header-bottom-menu__navigation_list {
+    display: flex;
+   
+    justify-content: space-between;
+    margin: 15px 0;
+   
+}
+.header-bottom-menu__navigation_list> li {
+    margin-left:30px;
+}
+
+.herro {
+    width: auto;
+    height: 620px; 
+
+    background-image: url('/img/oil-rigs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.75;
+}
+.herro__container {
+    padding: 200px 0;
+    margin: 0 auto;
+}
+.herro_title {
+    font-size: 59px;
+}
+.our-products__columns {
+    display: flex;
+}
+.our-products__column-left {
+    position: relative;
+    width: 30%;
+    margin: 20px 10px;
+    border: 2px solid #C8A35F
+}
+.our-products__column-left_title {
+    font-size: 32px;
+    text-align: center;
+    border: 2px solid #C8A35F
+}
+.our-products__column-left_description {
+    display: flex;
+    text-align: center;
+   
+    padding: 10px;
+    
+}
+.our-products__column-left_btn {
+    position: absolute;
+    bottom: 0;
+}
+.our-products__column-right {
+    width:55%;
+}
+.our-products__columns__btn {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+.swiper {
+    width: auto;
+    height: auto;
+    opacity: 0.75;
+  }
+
+
+.swiper-btn-next{
+   
+    border: 2px solid #C8A35F;
+    height: 45%;
+}
+
+.swiper-btn-prev {
+   border: 2px solid #C8A35F;
+    height: 45%;
+}
+.swiper-btn-prev div,  .swiper-btn-next div {
+    height: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.swiper-btn-next img, .swiper-btn-prev img {
+    margin-top: 20px;
+}
+.btn {
+    width: 100%;
+ 
+    background-color: #C8A35F;
+  
+    text-align: center;
+    line-height:50px ;
+    cursor: pointer;
+}
+
+.about-us {
+    display: flex;
+
+
+}
+
+.about-us_picture{
+    width: 30%;
+    text-align: center;
+    
+}
+
+.about-us_description{
+    width: 70%;
+}
+
+.about-us_picture-item {
+    max-width: 220px;
+    max-height: 300px;
+}
+
+
+.map{
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+
+}
+footer {
+    background-color: #C8A35F;;
+}
+.footer__wrapper {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
