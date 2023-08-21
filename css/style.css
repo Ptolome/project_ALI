@@ -10,7 +10,9 @@
 body {
     background-color:#2F343A;
 }
-
+h2 {
+    margin-bottom: 10px;
+}
 
 /* section {
   
@@ -170,8 +172,19 @@ body {
     max-width: 220px;
     max-height: 300px;
 }
-
-
+.contacts_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacts_phone,.contacts_addres {
+    display: flex;
+    flex-direction: row;
+   
+}
+.contacts_phone>span, .contacts_addres>span{
+    margin-right: 2em;
+}
 .map{
     width: 100%;
     height: 500px;
